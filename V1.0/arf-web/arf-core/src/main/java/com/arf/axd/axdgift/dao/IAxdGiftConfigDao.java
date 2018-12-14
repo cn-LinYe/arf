@@ -1,0 +1,1 @@
+package com.arf.axd.axdgift.dao;import com.arf.axd.axdgift.entity.AxdGiftConfig;import com.arf.core.dao.BaseDao;public interface IAxdGiftConfigDao extends BaseDao<AxdGiftConfig, Long> {	/**	 * 通过小区编号查询	 * @param communityNumber	 * @return	 */	AxdGiftConfig findByCommunityNumber(String communityNumber);}

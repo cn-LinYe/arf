@@ -1,0 +1,1 @@
+package com.arf.axd.service;import com.arf.axd.entity.ExchangeCodeRecord;import com.arf.core.service.BaseService;public interface IExchangeCodeRecordService extends BaseService<ExchangeCodeRecord,Long>{	/**	 * 根据凭证码查找兑换信息	 * @param exchangeCode	 * @return	 */  ExchangeCodeRecord findByExchangeCode(String exchangeCode);}

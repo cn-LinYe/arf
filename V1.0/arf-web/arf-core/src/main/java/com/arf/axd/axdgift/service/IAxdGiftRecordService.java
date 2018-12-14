@@ -1,0 +1,1 @@
+package com.arf.axd.axdgift.service;import com.arf.axd.axdgift.entity.AxdGiftRecord;import com.arf.core.service.BaseService;public interface IAxdGiftRecordService extends BaseService<AxdGiftRecord, Long> {}

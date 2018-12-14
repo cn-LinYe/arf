@@ -1,0 +1,1 @@
+package com.arf.axd.axdgift.service;import com.arf.axd.axdgift.entity.AxdGiftConfig;import com.arf.core.service.BaseService;public interface IAxdGiftConfigService extends BaseService<AxdGiftConfig,Long> {	/**	 * 通过小区编号查询	 * @param communityNumber	 * @return	 */	AxdGiftConfig findByCommunityNumber(String communityNumber);}

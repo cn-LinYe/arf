@@ -1,0 +1,1 @@
+package com.arf.axd.axdgift.dao;import com.arf.axd.axdgift.entity.AxdGiftRecord;import com.arf.core.dao.BaseDao;public interface IAxdGiftRecordDao extends BaseDao<AxdGiftRecord, Long> {}

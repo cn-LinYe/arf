@@ -1,0 +1,1 @@
+package com.arf.axd.axdgift.dao.impl;import org.springframework.stereotype.Repository;import com.arf.axd.axdgift.dao.IAxdGiftRecordDao;import com.arf.axd.axdgift.entity.AxdGiftRecord;import com.arf.core.dao.impl.BaseDaoImpl;@Repository("axdGiftRecordDaoImpl")public class AxdGiftRecordDaoImpl extends BaseDaoImpl<AxdGiftRecord, Long> implements IAxdGiftRecordDao {	}
